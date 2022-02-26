@@ -10,7 +10,6 @@
 	</parent>
 
 	<artifactId>common-function</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
 	<name>common-function</name>
 	<packaging>jar</packaging>
 
