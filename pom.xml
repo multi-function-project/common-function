@@ -6,6 +6,7 @@
         <groupId>com.example</groupId>
         <artifactId>base-function</artifactId>
         <version>1.0.0-SNAPSHOT</version>
+        <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>common-function</artifactId>
@@ -25,6 +26,14 @@
             </snapshots>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/multi-function-project/common-function</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <!--  -->
